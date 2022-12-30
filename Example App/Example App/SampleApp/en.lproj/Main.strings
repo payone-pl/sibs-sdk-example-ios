@@ -1,0 +1,63 @@
+
+/* Class = "UITextField"; text = "Order id: nory709fa4"; ObjectID = "1wh-rQ-IeS"; */
+"1wh-rQ-IeS.text" = "Order id: nory709fa4";
+
+/* Class = "UITextField"; text = "description test"; ObjectID = "AaJ-wy-tzM"; */
+"AaJ-wy-tzM.text" = "description test";
+
+/* Class = "UILabel"; text = "Optional params"; ObjectID = "CSk-CC-Lj4"; */
+"CSk-CC-Lj4.text" = "Optional params";
+
+/* Class = "UITextField"; text = "rutger@power.com"; ObjectID = "EB8-Oy-fkV"; */
+"EB8-Oy-fkV.text" = "rutger@power.com";
+
+/* Class = "UITextField"; text = "50.5"; ObjectID = "F7C-Zu-HBF"; */
+"F7C-Zu-HBF.text" = "50.5";
+
+/* Class = "UILabel"; text = "transaction id"; ObjectID = "FiK-ay-NOh"; */
+"FiK-ay-NOh.text" = "transaction id";
+
+/* Class = "UILabel"; text = "Required params"; ObjectID = "LB8-sE-TbN"; */
+"LB8-sE-TbN.text" = "Required params";
+
+/* Class = "UILabel"; text = "amount"; ObjectID = "MRL-Gu-rbh"; */
+"MRL-Gu-rbh.text" = "amount";
+
+/* Class = "UILabel"; text = "description"; ObjectID = "N8p-rr-KIq"; */
+"N8p-rr-KIq.text" = "description";
+
+/* Class = "UILabel"; text = "client"; ObjectID = "RRz-gQ-urk"; */
+"RRz-gQ-urk.text" = "client";
+
+/* Class = "UILabel"; text = "BLIK"; ObjectID = "Ux6-vY-i5u"; */
+"Ux6-vY-i5u.text" = "BLIK";
+
+/* Class = "UILabel"; text = "terminal id"; ObjectID = "cd0-6M-njq"; */
+"cd0-6M-njq.text" = "terminal id";
+
+/* Class = "UITextField"; text = "182"; ObjectID = "d8G-KD-9RI"; */
+"d8G-KD-9RI.text" = "182";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "eNX-kR-JAd"; */
+"eNX-kR-JAd.text" = "email";
+
+/* Class = "UIButton"; normalTitle = "START SDK"; ObjectID = "fdq-pE-QHq"; */
+"fdq-pE-QHq.normalTitle" = "START SDK";
+
+/* Class = "UILabel"; text = "CARD"; ObjectID = "k6m-YP-rcR"; */
+"k6m-YP-rcR.text" = "CARD";
+
+/* Class = "UINavigationItem"; title = "Example app"; ObjectID = "mp9-r3-Gw9"; */
+"mp9-r3-Gw9.title" = "Example app";
+
+/* Class = "UILabel"; text = "PAY_BY_LINK"; ObjectID = "qN3-bP-cbA"; */
+"qN3-bP-cbA.text" = "PAY_BY_LINK";
+
+/* Class = "UITextField"; text = "PLN"; ObjectID = "rz1-FQ-DeW"; */
+"rz1-FQ-DeW.text" = "PLN";
+
+/* Class = "UILabel"; text = "currency"; ObjectID = "u01-DD-XBY"; */
+"u01-DD-XBY.text" = "currency";
+
+/* Class = "UITextField"; text = "Rutger Power"; ObjectID = "wsP-SI-gq9"; */
+"wsP-SI-gq9.text" = "Rutger Power";

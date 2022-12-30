@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Example App
+
+  Created by Marcin Kuświk on 27/12/2022.
+  
+*/
+
+"loc_status_alert_title" = "Status";
+"loc_status_alert_message" = "Rezultat płatności: %@\nID transakcji: %@";
+"loc_status_alert_message_success" = "SUKCES";
+"loc_status_alert_message_error" = "BŁĄD";
+"loc_status_alert_action_title" = "OK";
