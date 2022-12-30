@@ -1,0 +1,11 @@
+framework module SibsSDK {
+  umbrella header "SibsSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SibsSDK.Swift {
+  header "SibsSDK-Swift.h"
+  requires objc
+}

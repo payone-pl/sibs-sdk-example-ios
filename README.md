@@ -1,2 +1,3 @@
-# ios-sdk-sibs-paywall-example
-ios example of sdk sibs paywall
+# Sibs SDK Example App iOS
+
+Example of usage Sibs payments SDK.
