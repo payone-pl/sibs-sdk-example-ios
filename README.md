@@ -1,2 +1,1 @@
-# mac-sdk-sibs-paywall
-Mac sdk sibs paywall
+# ios-sdk-sibs-paywall-example
