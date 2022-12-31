@@ -15,7 +15,7 @@
 		09BAB919293814AD009B2E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BAB917293814AD009B2E1B /* Main.storyboard */; };
 		09BAB91B293814AE009B2E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BAB91A293814AE009B2E1B /* Assets.xcassets */; };
 		09BAB91E293814AE009B2E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BAB91C293814AE009B2E1B /* LaunchScreen.storyboard */; };
-		09FA694F295E989800DFA66A /* SibsSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FA694E295E989800DFA66A /* SibsSDK.xcframework */; };
+		09C475C72960A11900CB60C3 /* SibsSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C475C62960A11900CB60C3 /* SibsSDK.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		09BAB915293814AD009B2E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		09BAB91A293814AE009B2E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09BAB91F293814AE009B2E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09FA694E295E989800DFA66A /* SibsSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SibsSDK.xcframework; sourceTree = "<group>"; };
+		09C475C62960A11900CB60C3 /* SibsSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SibsSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09FA694F295E989800DFA66A /* SibsSDK.xcframework in Frameworks */,
+				09C475C72960A11900CB60C3 /* SibsSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +47,7 @@
 		090CD5D92942999200B7A3BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				09FA694E295E989800DFA66A /* SibsSDK.xcframework */,
+				09C475C62960A11900CB60C3 /* SibsSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

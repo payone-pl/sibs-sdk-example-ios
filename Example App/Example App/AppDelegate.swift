@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        SIBS.SDK.configure(withBaseURL: baseURL, webURL: webURL, clientID: clientID, token: token, language: .en)
+        SIBS.configure(withBaseURL: baseURL, webURL: webURL, clientID: clientID, token: token, language: .en)
         return true
     }
 
