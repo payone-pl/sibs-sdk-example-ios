@@ -39,9 +39,9 @@ final class ViewController: UIViewController {
               let transactionDescription = descriptionTextField.text,
               let amountString = amountTextField.text,
               let amount = Double(amountString),
-              let currency = SIBS.Currency(code: currencyTextField.text ?? Constants.defaultCurrencyCode) else { return }
+              let currency = Currency(code: currencyTextField.text ?? Constants.defaultCurrencyCode) else { return }
 
-        var payments: [SIBS.PaymentMethod] = []
+        var payments: [PaymentMethod] = []
 
         if cardSwitch.isOn {
             payments.append(.card)
@@ -54,7 +54,7 @@ final class ViewController: UIViewController {
         }
 
         do {
-            let data = try SIBS.TransactionParams.Builder()
+            let data = try TransactionParams.Builder()
                 .currency(currency)
                 .amount(amount)
                 .paymentMethods(payments)
@@ -65,7 +65,7 @@ final class ViewController: UIViewController {
                 .email(emailTextField.text ?? "")
                 .build()
 
-            SIBS.SDK.shared.startPayment(from: self, with: data) { [weak self] result in
+            SIBS.startPayment(from: self, with: data) { [weak self] result in
                 switch result {
                 case .success(let data):
                     self?.onPaymentSuccess(data: data)
@@ -78,7 +78,7 @@ final class ViewController: UIViewController {
         }
     }
 
-    private func onPaymentSuccess(data: SIBS.TransactionResult) {
+    private func onPaymentSuccess(data: TransactionResult) {
         let message = String(
             format: NSLocalizedString("loc_status_alert_message", comment: ""),
             data.isSuccess ? NSLocalizedString("loc_status_alert_message_success", comment: "") : NSLocalizedString("loc_status_alert_message_error", comment: ""),
@@ -90,7 +90,7 @@ final class ViewController: UIViewController {
 
     private func checkStatus(transactionID: String?) {
         guard let transactionID = transactionID else { return }
-        SIBS.SDK.shared.check(transactionID: transactionID) { result in
+        SIBS.check(transactionID: transactionID) { result in
             switch result {
             case .success(let data):
                 print(data)
