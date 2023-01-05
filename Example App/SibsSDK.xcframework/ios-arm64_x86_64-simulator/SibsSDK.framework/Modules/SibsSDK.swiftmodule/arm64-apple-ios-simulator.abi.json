@@ -5949,6 +5949,43 @@
         "children": [
           {
             "kind": "Var",
+            "name": "applePay",
+            "printedName": "applePay",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SibsSDK.PaymentMethod.Type) -> SibsSDK.PaymentMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentMethod",
+                    "printedName": "SibsSDK.PaymentMethod",
+                    "usr": "s:7SibsSDK13PaymentMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SibsSDK.PaymentMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentMethod",
+                        "printedName": "SibsSDK.PaymentMethod",
+                        "usr": "s:7SibsSDK13PaymentMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7SibsSDK13PaymentMethodO8applePayyA2CmF",
+            "mangledName": "$s7SibsSDK13PaymentMethodO8applePayyA2CmF",
+            "moduleName": "SibsSDK"
+          },
+          {
+            "kind": "Var",
             "name": "blik",
             "printedName": "blik",
             "children": [
@@ -6060,8 +6097,8 @@
           },
           {
             "kind": "Var",
-            "name": "applePay",
-            "printedName": "applePay",
+            "name": "pblkv",
+            "printedName": "pblkv",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -6091,8 +6128,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:7SibsSDK13PaymentMethodO8applePayyA2CmF",
-            "mangledName": "$s7SibsSDK13PaymentMethodO8applePayyA2CmF",
+            "usr": "s:7SibsSDK13PaymentMethodO5pblkvyA2CmF",
+            "mangledName": "$s7SibsSDK13PaymentMethodO5pblkvyA2CmF",
             "moduleName": "SibsSDK"
           },
           {
@@ -6762,427 +6799,434 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/View\/BaseViewController.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/View\/BaseViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 368,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/View\/Payment\/PaymentView.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/View\/Payment\/PaymentView.swift",
       "kind": "BooleanLiteral",
       "offset": 726,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/View\/BaseView.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/View\/BaseView.swift",
       "kind": "StringLiteral",
       "offset": 106,
       "length": 8,
       "value": "\"SibsSDK.BaseView\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/View\/Payment\/PaymentViewController.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/View\/Payment\/PaymentViewController.swift",
       "kind": "StringLiteral",
       "offset": 139,
       "length": 21,
       "value": "\"SibsSDK.PaymentViewController\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams+Builder.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams+Builder.swift",
       "kind": "StringLiteral",
       "offset": 230,
       "length": 6,
       "value": "\"PURS\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams+Builder.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams+Builder.swift",
       "kind": "StringLiteral",
       "offset": 270,
       "length": 5,
       "value": "\"web\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams+Builder.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams+Builder.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 29,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSS'Z\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
       "kind": "StringLiteral",
       "offset": 525,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
       "kind": "StringLiteral",
       "offset": 565,
       "length": 17,
       "value": "\"X-IBM-Client-Id\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
       "kind": "StringLiteral",
       "offset": 525,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
       "kind": "StringLiteral",
       "offset": 565,
       "length": 17,
       "value": "\"X-IBM-Client-Id\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
       "kind": "IntegerLiteral",
       "offset": 851,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
       "kind": "FloatLiteral",
       "offset": 882,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/Merchant.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/Merchant.swift",
       "kind": "StringLiteral",
       "offset": 450,
       "length": 23,
       "value": "\"merchantTransactionId\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/Merchant.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/Merchant.swift",
       "kind": "StringLiteral",
       "offset": 500,
       "length": 12,
       "value": "\"terminalId\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/Merchant.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/Merchant.swift",
       "kind": "StringLiteral",
       "offset": 450,
       "length": 23,
       "value": "\"merchantTransactionId\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/Merchant.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/Merchant.swift",
       "kind": "StringLiteral",
       "offset": 500,
       "length": 12,
       "value": "\"terminalId\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 155,
       "length": 9,
       "value": "\"Success\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 184,
       "length": 9,
       "value": "\"Partial\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 214,
       "length": 10,
       "value": "\"Declined\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 249,
       "length": 14,
       "value": "\"InProcessing\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 283,
       "length": 9,
       "value": "\"Pending\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 312,
       "length": 9,
       "value": "\"Timeout\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 339,
       "length": 7,
       "value": "\"Error\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 155,
       "length": 9,
       "value": "\"Success\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 184,
       "length": 9,
       "value": "\"Partial\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 214,
       "length": 10,
       "value": "\"Declined\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 249,
       "length": 14,
       "value": "\"InProcessing\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 283,
       "length": 9,
       "value": "\"Pending\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 312,
       "length": 9,
       "value": "\"Timeout\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentStatus.swift",
       "kind": "StringLiteral",
       "offset": 339,
       "length": 7,
       "value": "\"Error\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
       "kind": "StringLiteral",
       "offset": 1162,
       "length": 12,
       "value": "\"terminalId\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
       "kind": "StringLiteral",
       "offset": 1233,
       "length": 23,
       "value": "\"merchantTransactionId\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
       "kind": "StringLiteral",
       "offset": 1162,
       "length": 12,
       "value": "\"terminalId\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
       "kind": "StringLiteral",
       "offset": 1233,
       "length": 23,
       "value": "\"merchantTransactionId\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
       "kind": "StringLiteral",
       "offset": 3269,
       "length": 13,
       "value": "\"description\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
       "kind": "StringLiteral",
       "offset": 3269,
       "length": 13,
       "value": "\"description\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
       "kind": "StringLiteral",
-      "offset": 166,
-      "length": 6,
-      "value": "\"BLIK\""
-    },
-    {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 189,
-      "length": 6,
-      "value": "\"CARD\""
-    },
-    {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 217,
-      "length": 13,
-      "value": "\"PAY_BY_LINK\""
-    },
-    {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 251,
+      "offset": 170,
       "length": 11,
       "value": "\"APPLE_PAY\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
       "kind": "StringLiteral",
-      "offset": 166,
+      "offset": 198,
       "length": 6,
       "value": "\"BLIK\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
       "kind": "StringLiteral",
-      "offset": 189,
+      "offset": 221,
       "length": 6,
       "value": "\"CARD\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
       "kind": "StringLiteral",
-      "offset": 217,
+      "offset": 249,
       "length": 13,
       "value": "\"PAY_BY_LINK\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
       "kind": "StringLiteral",
-      "offset": 251,
+      "offset": 280,
+      "length": 7,
+      "value": "\"PBLKV\""
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 170,
       "length": 11,
       "value": "\"APPLE_PAY\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 198,
+      "length": 6,
+      "value": "\"BLIK\""
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 221,
+      "length": 6,
+      "value": "\"CARD\""
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 13,
+      "value": "\"PAY_BY_LINK\""
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/PaymentMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 280,
+      "length": 7,
+      "value": "\"PBLKV\""
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
       "kind": "StringLiteral",
       "offset": 149,
       "length": 25,
       "value": "\"sibs:\/\/transfer\/success\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 208,
-      "length": 29,
-      "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSS'Z\""
-    },
-    {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 308,
+      "offset": 245,
       "length": 18,
       "value": "\"payment_template\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 366,
+      "offset": 303,
       "length": 6,
       "value": "\"html\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 408,
+      "offset": 345,
       "length": 8,
       "value": "\"webURL\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 459,
+      "offset": 396,
       "length": 15,
       "value": "\"transactionID\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 511,
+      "offset": 448,
       "length": 9,
       "value": "\"context\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 556,
+      "offset": 493,
       "length": 8,
       "value": "\"amount\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 602,
+      "offset": 539,
       "length": 10,
       "value": "\"currency\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 653,
+      "offset": 590,
       "length": 13,
       "value": "\"redirectURL\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 704,
+      "offset": 641,
       "length": 10,
       "value": "\"language\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
       "kind": "FloatLiteral",
-      "offset": 757,
+      "offset": 694,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 790,
+      "offset": 727,
       "length": 9,
       "value": "\"http:\/\/\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 829,
+      "offset": 766,
       "length": 10,
       "value": "\"https:\/\/\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Config\/InternalConstants.swift",
       "kind": "StringLiteral",
-      "offset": 870,
+      "offset": 807,
       "length": 9,
       "value": "\"mailto:\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Documents\/projects\/sibs-sdk-framework-ios\/SibsSDK\/Coordinator\/PaymentCoordinator.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Coordinator\/PaymentCoordinator.swift",
       "kind": "Array",
       "offset": 391,
       "length": 2,

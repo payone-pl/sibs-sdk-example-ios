@@ -216,10 +216,11 @@ public struct TransactionStatus : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
 }
 public enum PaymentMethod : Swift.String, Swift.Codable, Swift.CaseIterable {
+  case applePay
   case blik
   case card
   case payByLink
-  case applePay
+  case pblkv
   public init?(rawValue: Swift.String)
   public typealias AllCases = [PaymentMethod]
   public typealias RawValue = Swift.String
