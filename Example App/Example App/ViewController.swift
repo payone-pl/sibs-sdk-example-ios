@@ -17,6 +17,7 @@ final class ViewController: UIViewController {
     @IBOutlet weak var cardSwitch: UISwitch!
     @IBOutlet weak var blikSwitch: UISwitch!
     @IBOutlet weak var payByLinkSwitch: UISwitch!
+    @IBOutlet weak var pblkvSwitch: UISwitch!
     @IBOutlet weak var clientTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
 
@@ -51,6 +52,9 @@ final class ViewController: UIViewController {
         }
         if payByLinkSwitch.isOn {
             payments.append(.payByLink)
+        }
+        if pblkvSwitch.isOn {
+            payments.append(.pblkv)
         }
 
         do {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09554C9D29664B6A005820BB /* SibsSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09554C9C29664B6A005820BB /* SibsSDK.xcframework */; };
 		0980182B295B9EA10042E49E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0980182D295B9EA10042E49E /* Localizable.strings */; };
 		09801833295B9F030042E49E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09801835295B9F030042E49E /* Localizable.strings */; };
 		09BAB912293814AD009B2E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BAB911293814AD009B2E1B /* AppDelegate.swift */; };
@@ -15,10 +16,10 @@
 		09BAB919293814AD009B2E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BAB917293814AD009B2E1B /* Main.storyboard */; };
 		09BAB91B293814AE009B2E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BAB91A293814AE009B2E1B /* Assets.xcassets */; };
 		09BAB91E293814AE009B2E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BAB91C293814AE009B2E1B /* LaunchScreen.storyboard */; };
-		09C475C72960A11900CB60C3 /* SibsSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C475C62960A11900CB60C3 /* SibsSDK.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09554C9C29664B6A005820BB /* SibsSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SibsSDK.xcframework; sourceTree = "<group>"; };
 		09801825295B9E4B0042E49E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09801826295B9E4B0042E49E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0980182C295B9EA10042E49E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		09BAB915293814AD009B2E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		09BAB91A293814AE009B2E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09BAB91F293814AE009B2E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09C475C62960A11900CB60C3 /* SibsSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SibsSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09C475C72960A11900CB60C3 /* SibsSDK.xcframework in Frameworks */,
+				09554C9D29664B6A005820BB /* SibsSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +47,7 @@
 		090CD5D92942999200B7A3BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				09C475C62960A11900CB60C3 /* SibsSDK.xcframework */,
+				09554C9C29664B6A005820BB /* SibsSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
