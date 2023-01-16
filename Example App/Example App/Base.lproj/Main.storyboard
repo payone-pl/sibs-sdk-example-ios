@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="yf6-dO-Rj7">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1908.3333333333333"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1978.6666666666667"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Required params" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LB8-sE-TbN" userLabel="Required params Label">
                                                 <rect key="frame" x="16" y="15.999999999999998" width="361" height="20.333333333333329"/>
@@ -93,13 +93,13 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="peA-e2-p4z">
-                                                <rect key="frame" x="16" y="460.66666666666663" width="361" height="1031"/>
+                                                <rect key="frame" x="16" y="460.66666666666663" width="361" height="1054.3333333333335"/>
                                                 <subviews>
                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZcQ-Dl-x4e">
-                                                        <rect key="frame" x="0.0" y="500" width="51" height="31"/>
+                                                        <rect key="frame" x="0.0" y="511.66666666666663" width="51" height="31"/>
                                                     </switch>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CARD" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="k6m-YP-rcR" userLabel="Card Label">
-                                                        <rect key="frame" x="65" y="507.66666666666669" width="296" height="15.666666666666686"/>
+                                                        <rect key="frame" x="65" y="519.33333333333326" width="296" height="15.666666666666629"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -108,14 +108,14 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" id="Fnc-yI-Nr1">
-                                                <rect key="frame" x="16" y="1507.6666666666667" width="361" height="31"/>
+                                                <rect key="frame" x="16" y="1531" width="361" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5oo-KG-vZY">
                                                         <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
                                                     </switch>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLIK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ux6-vY-i5u" userLabel="Blik Label">
-                                                        <rect key="frame" x="65" y="7.6666666666665142" width="296" height="15.666666666666664"/>
+                                                        <rect key="frame" x="65" y="7.6666666666667416" width="296" height="15.666666666666664"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -124,14 +124,14 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" id="bUL-Ww-wUD">
-                                                <rect key="frame" x="16" y="1554.6666666666667" width="361" height="31"/>
+                                                <rect key="frame" x="16" y="1578" width="361" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e8y-gL-ShF">
                                                         <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
                                                     </switch>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PAY_BY_LINK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qN3-bP-cbA" userLabel="Pay by link Label">
-                                                        <rect key="frame" x="65" y="7.6666666666665142" width="296" height="15.666666666666664"/>
+                                                        <rect key="frame" x="65" y="7.6666666666667416" width="296" height="15.666666666666664"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -140,14 +140,14 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" id="FCc-df-Ym9">
-                                                <rect key="frame" x="16" y="1601.6666666666667" width="361" height="31"/>
+                                                <rect key="frame" x="16" y="1625" width="361" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l8v-iU-nFs">
                                                         <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
                                                     </switch>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PBLKV" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FFt-IJ-B6v" userLabel="Pay by link Label">
-                                                        <rect key="frame" x="65" y="7.6666666666665142" width="296" height="15.666666666666664"/>
+                                                        <rect key="frame" x="65" y="7.6666666666667416" width="296" height="15.666666666666664"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -156,41 +156,58 @@
                                                 </subviews>
                                                 <viewLayoutGuide key="safeArea" id="1ij-Re-Zee"/>
                                             </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" id="nKr-FP-iKU">
+                                                <rect key="frame" x="16" y="1672" width="361" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wnu-mh-T9N">
+                                                        <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
+                                                    </switch>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Card tokenization" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qwh-qA-7wT" userLabel="Card tokenization Label">
+                                                        <rect key="frame" x="65" y="7.6666666666667416" width="296" height="15.666666666666664"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <viewLayoutGuide key="safeArea" id="d0N-Qp-qqQ"/>
+                                            </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Optional params" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CSk-CC-Lj4" userLabel="Optional params Label">
-                                                <rect key="frame" x="16" y="1648.6666666666667" width="361" height="20.333333333333258"/>
+                                                <rect key="frame" x="16" y="1719" width="361" height="20.333333333333258"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="client" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RRz-gQ-urk" userLabel="Client Label">
-                                                <rect key="frame" x="16" y="1685" width="361" height="15.666666666666742"/>
+                                                <rect key="frame" x="16" y="1755.3333333333333" width="361" height="15.666666666666742"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Rutger Power" borderStyle="roundedRect" minimumFontSize="17" id="wsP-SI-gq9" userLabel="Client Text Field">
-                                                <rect key="frame" x="16" y="1716.6666666666667" width="361" height="34"/>
+                                                <rect key="frame" x="16" y="1787" width="361" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eNX-kR-JAd" userLabel="Email Label">
-                                                <rect key="frame" x="16" y="1766.6666666666667" width="361" height="15.666666666666742"/>
+                                                <rect key="frame" x="16" y="1837" width="361" height="15.666666666666742"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="rutger@power.com" borderStyle="roundedRect" minimumFontSize="17" id="EB8-Oy-fkV" userLabel="Email Text Field">
-                                                <rect key="frame" x="16" y="1798.3333333333333" width="361" height="34"/>
+                                                <rect key="frame" x="16" y="1868.6666666666667" width="361" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdq-pE-QHq">
-                                                <rect key="frame" x="16" y="1848.3333333333333" width="361" height="44"/>
+                                                <rect key="frame" x="16" y="1918.6666666666667" width="361" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="Ah7-Ic-aqR"/>
                                                 </constraints>
@@ -228,6 +245,7 @@
                         <outlet property="amountTextField" destination="F7C-Zu-HBF" id="Bne-m1-Dlk"/>
                         <outlet property="blikSwitch" destination="5oo-KG-vZY" id="Fpt-aW-gg7"/>
                         <outlet property="cardSwitch" destination="ZcQ-Dl-x4e" id="VHI-4K-bNh"/>
+                        <outlet property="cardTokenizationSwitch" destination="wnu-mh-T9N" id="FwP-Of-orn"/>
                         <outlet property="clientTextField" destination="wsP-SI-gq9" id="lsg-2p-4k0"/>
                         <outlet property="currencyTextField" destination="rz1-FQ-DeW" id="CuZ-V9-hby"/>
                         <outlet property="descriptionTextField" destination="AaJ-wy-tzM" id="daf-ff-3JG"/>
