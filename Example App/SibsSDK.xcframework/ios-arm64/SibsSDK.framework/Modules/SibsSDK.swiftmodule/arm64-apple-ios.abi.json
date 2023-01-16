@@ -1079,9 +1079,69 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SibsSDK.Token?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Token",
+                    "printedName": "SibsSDK.Token",
+                    "usr": "s:7SibsSDK5TokenV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SibsSDK17TransactionResultV5tokenAA5TokenVSgvp",
+            "mangledName": "$s7SibsSDK17TransactionResultV5tokenAA5TokenVSgvp",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SibsSDK.Token?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Token",
+                        "printedName": "SibsSDK.Token",
+                        "usr": "s:7SibsSDK5TokenV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SibsSDK17TransactionResultV5tokenAA5TokenVSgvg",
+                "mangledName": "$s7SibsSDK17TransactionResultV5tokenAA5TokenVSgvg",
+                "moduleName": "SibsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(isSuccess:transactionID:)",
+            "printedName": "init(isSuccess:transactionID:token:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1108,11 +1168,25 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SibsSDK.Token?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Token",
+                    "printedName": "SibsSDK.Token",
+                    "usr": "s:7SibsSDK5TokenV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7SibsSDK17TransactionResultV9isSuccess13transactionIDACSb_SSSgtcfc",
-            "mangledName": "$s7SibsSDK17TransactionResultV9isSuccess13transactionIDACSb_SSSgtcfc",
+            "usr": "s:7SibsSDK17TransactionResultV9isSuccess13transactionID5tokenACSb_SSSgAA5TokenVSgtcfc",
+            "mangledName": "$s7SibsSDK17TransactionResultV9isSuccess13transactionID5tokenACSb_SSSgAA5TokenVSgtcfc",
             "moduleName": "SibsSDK",
             "declAttributes": [
               "AccessControl"
@@ -2772,6 +2846,467 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "Token",
+        "printedName": "Token",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SibsSDK5TokenV4nameSSSgvp",
+            "mangledName": "$s7SibsSDK5TokenV4nameSSSgvp",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SibsSDK5TokenV4nameSSSgvg",
+                "mangledName": "$s7SibsSDK5TokenV4nameSSSgvg",
+                "moduleName": "SibsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SibsSDK5TokenV4typeSSvp",
+            "mangledName": "$s7SibsSDK5TokenV4typeSSvp",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SibsSDK5TokenV4typeSSvg",
+                "mangledName": "$s7SibsSDK5TokenV4typeSSvg",
+                "moduleName": "SibsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SibsSDK5TokenV5valueSSvp",
+            "mangledName": "$s7SibsSDK5TokenV5valueSSvp",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SibsSDK5TokenV5valueSSvg",
+                "mangledName": "$s7SibsSDK5TokenV5valueSSvg",
+                "moduleName": "SibsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maskedPAN",
+            "printedName": "maskedPAN",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SibsSDK5TokenV9maskedPANSSSgvp",
+            "mangledName": "$s7SibsSDK5TokenV9maskedPANSSSgvp",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SibsSDK5TokenV9maskedPANSSSgvg",
+                "mangledName": "$s7SibsSDK5TokenV9maskedPANSSSgvg",
+                "moduleName": "SibsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expireDate",
+            "printedName": "expireDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SibsSDK5TokenV10expireDateSSSgvp",
+            "mangledName": "$s7SibsSDK5TokenV10expireDateSSSgvp",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SibsSDK5TokenV10expireDateSSSgvg",
+                "mangledName": "$s7SibsSDK5TokenV10expireDateSSSgvg",
+                "moduleName": "SibsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:type:value:maskedPAN:expireDate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Token",
+                "printedName": "SibsSDK.Token",
+                "usr": "s:7SibsSDK5TokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SibsSDK5TokenV4name4type5value9maskedPAN10expireDateACSSSg_S2SA2Itcfc",
+            "mangledName": "$s7SibsSDK5TokenV4name4type5value9maskedPAN10expireDateACSSSg_S2SA2Itcfc",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(type:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Token",
+                "printedName": "SibsSDK.Token",
+                "usr": "s:7SibsSDK5TokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SibsSDK5TokenV4type5valueACSS_SStcfc",
+            "mangledName": "$s7SibsSDK5TokenV4type5valueACSS_SStcfc",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Token",
+                "printedName": "SibsSDK.Token",
+                "usr": "s:7SibsSDK5TokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SibsSDK5TokenV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7SibsSDK5TokenV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SibsSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SibsSDK5TokenV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7SibsSDK5TokenV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SibsSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SibsSDK5TokenV",
+        "mangledName": "$s7SibsSDK5TokenV",
+        "moduleName": "SibsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "TransactionParams",
         "printedName": "TransactionParams",
         "children": [
@@ -2924,9 +3459,69 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "tokenizationParams",
+            "printedName": "tokenizationParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SibsSDK.TokenizationParams?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenizationParams",
+                    "printedName": "SibsSDK.TokenizationParams",
+                    "usr": "s:7SibsSDK18TokenizationParamsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SibsSDK17TransactionParamsV012tokenizationD0AA012TokenizationD0VSgvp",
+            "mangledName": "$s7SibsSDK17TransactionParamsV012tokenizationD0AA012TokenizationD0VSgvp",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SibsSDK.TokenizationParams?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenizationParams",
+                        "printedName": "SibsSDK.TokenizationParams",
+                        "usr": "s:7SibsSDK18TokenizationParamsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SibsSDK17TransactionParamsV012tokenizationD0AA012TokenizationD0VSgvg",
+                "mangledName": "$s7SibsSDK17TransactionParamsV012tokenizationD0AA012TokenizationD0VSgvg",
+                "moduleName": "SibsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(merchant:transaction:customer:)",
+            "printedName": "init(merchant:transaction:customer:tokenizationParams:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2958,12 +3553,28 @@
                     "usr": "s:7SibsSDK8CustomerV"
                   }
                 ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SibsSDK.TokenizationParams?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenizationParams",
+                    "printedName": "SibsSDK.TokenizationParams",
+                    "usr": "s:7SibsSDK18TokenizationParamsV"
+                  }
+                ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7SibsSDK17TransactionParamsV8merchant11transaction8customerAcA11MerchantDTOV_AA0cI0VAA8CustomerVSgtcfc",
-            "mangledName": "$s7SibsSDK17TransactionParamsV8merchant11transaction8customerAcA11MerchantDTOV_AA0cI0VAA8CustomerVSgtcfc",
+            "usr": "s:7SibsSDK17TransactionParamsV8merchant11transaction8customer012tokenizationD0AcA11MerchantDTOV_AA0cJ0VAA8CustomerVSgAA012TokenizationD0VSgtcfc",
+            "mangledName": "$s7SibsSDK17TransactionParamsV8merchant11transaction8customer012tokenizationD0AcA11MerchantDTOV_AA0cJ0VAA8CustomerVSgAA012TokenizationD0VSgtcfc",
             "moduleName": "SibsSDK",
             "declAttributes": [
               "AccessControl"
@@ -3351,6 +3962,40 @@
                 "declKind": "Func",
                 "usr": "s:7SibsSDK17TransactionParamsV7BuilderC14billingAddressyAEXDAA0G0VF",
                 "mangledName": "$s7SibsSDK17TransactionParamsV7BuilderC14billingAddressyAEXDAA0G0VF",
+                "moduleName": "SibsSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "tokenizationParams",
+                "printedName": "tokenizationParams(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SibsSDK.TokenizationParams?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenizationParams",
+                        "printedName": "SibsSDK.TokenizationParams",
+                        "usr": "s:7SibsSDK18TokenizationParamsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7SibsSDK17TransactionParamsV7BuilderC012tokenizationD0yAEXDAA012TokenizationD0VSgF",
+                "mangledName": "$s7SibsSDK17TransactionParamsV7BuilderC012tokenizationD0yAEXDAA012TokenizationD0VSgF",
                 "moduleName": "SibsSDK",
                 "declAttributes": [
                   "AccessControl"
@@ -5803,9 +6448,69 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SibsSDK.Token?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Token",
+                    "printedName": "SibsSDK.Token",
+                    "usr": "s:7SibsSDK5TokenV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SibsSDK17TransactionStatusV5tokenAA5TokenVSgvp",
+            "mangledName": "$s7SibsSDK17TransactionStatusV5tokenAA5TokenVSgvp",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SibsSDK.Token?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Token",
+                        "printedName": "SibsSDK.Token",
+                        "usr": "s:7SibsSDK5TokenV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SibsSDK17TransactionStatusV5tokenAA5TokenVSgvg",
+                "mangledName": "$s7SibsSDK17TransactionStatusV5tokenAA5TokenVSgvg",
+                "moduleName": "SibsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(merchant:transactionID:paymentType:paymentStatus:paymentMethod:execution:returnStatus:)",
+            "printedName": "init(merchant:transactionID:paymentType:paymentStatus:paymentMethod:execution:returnStatus:token:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5854,11 +6559,25 @@
                 "name": "ReturnStatus",
                 "printedName": "SibsSDK.ReturnStatus",
                 "usr": "s:7SibsSDK12ReturnStatusV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SibsSDK.Token?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Token",
+                    "printedName": "SibsSDK.Token",
+                    "usr": "s:7SibsSDK5TokenV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7SibsSDK17TransactionStatusV8merchant13transactionID11paymentType0hD00H6Method9execution06returnD0AcA8MerchantV_S2SAA07PaymentD0OSSAA9ExecutionVAA06ReturnD0Vtcfc",
-            "mangledName": "$s7SibsSDK17TransactionStatusV8merchant13transactionID11paymentType0hD00H6Method9execution06returnD0AcA8MerchantV_S2SAA07PaymentD0OSSAA9ExecutionVAA06ReturnD0Vtcfc",
+            "usr": "s:7SibsSDK17TransactionStatusV8merchant13transactionID11paymentType0hD00H6Method9execution06returnD05tokenAcA8MerchantV_S2SAA07PaymentD0OSSAA9ExecutionVAA06ReturnD0VAA5TokenVSgtcfc",
+            "mangledName": "$s7SibsSDK17TransactionStatusV8merchant13transactionID11paymentType0hD00H6Method9execution06returnD05tokenAcA8MerchantV_S2SAA07PaymentD0OSSAA9ExecutionVAA06ReturnD0VAA5TokenVSgtcfc",
             "moduleName": "SibsSDK",
             "declAttributes": [
               "AccessControl"
@@ -6356,6 +7075,511 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "TokenizationParams",
+        "printedName": "TokenizationParams",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tokenizeCard",
+            "printedName": "tokenizeCard",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TokenizationRequest",
+                "printedName": "SibsSDK.TokenizationRequest",
+                "usr": "s:7SibsSDK19TokenizationRequestV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SibsSDK18TokenizationParamsV12tokenizeCardAA0C7RequestVvp",
+            "mangledName": "$s7SibsSDK18TokenizationParamsV12tokenizeCardAA0C7RequestVvp",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenizationRequest",
+                    "printedName": "SibsSDK.TokenizationRequest",
+                    "usr": "s:7SibsSDK19TokenizationRequestV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SibsSDK18TokenizationParamsV12tokenizeCardAA0C7RequestVvg",
+                "mangledName": "$s7SibsSDK18TokenizationParamsV12tokenizeCardAA0C7RequestVvg",
+                "moduleName": "SibsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tokens",
+            "printedName": "tokens",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SibsSDK.Token]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Token",
+                    "printedName": "SibsSDK.Token",
+                    "usr": "s:7SibsSDK5TokenV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SibsSDK18TokenizationParamsV6tokensSayAA5TokenVGvp",
+            "mangledName": "$s7SibsSDK18TokenizationParamsV6tokensSayAA5TokenVGvp",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SibsSDK.Token]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Token",
+                        "printedName": "SibsSDK.Token",
+                        "usr": "s:7SibsSDK5TokenV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SibsSDK18TokenizationParamsV6tokensSayAA5TokenVGvg",
+                "mangledName": "$s7SibsSDK18TokenizationParamsV6tokensSayAA5TokenVGvg",
+                "moduleName": "SibsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(tokenizeCard:tokens:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TokenizationParams",
+                "printedName": "SibsSDK.TokenizationParams",
+                "usr": "s:7SibsSDK18TokenizationParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TokenizationRequest",
+                "printedName": "SibsSDK.TokenizationRequest",
+                "usr": "s:7SibsSDK19TokenizationRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SibsSDK.Token]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Token",
+                    "printedName": "SibsSDK.Token",
+                    "usr": "s:7SibsSDK5TokenV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SibsSDK18TokenizationParamsV12tokenizeCard6tokensAcA0C7RequestV_SayAA5TokenVGtcfc",
+            "mangledName": "$s7SibsSDK18TokenizationParamsV12tokenizeCard6tokensAcA0C7RequestV_SayAA5TokenVGtcfc",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TokenizationParams",
+                "printedName": "SibsSDK.TokenizationParams",
+                "usr": "s:7SibsSDK18TokenizationParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SibsSDK18TokenizationParamsV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7SibsSDK18TokenizationParamsV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SibsSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SibsSDK18TokenizationParamsV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7SibsSDK18TokenizationParamsV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SibsSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Builder",
+            "printedName": "Builder",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "SibsSDK.TokenizationParams.Builder",
+                    "usr": "s:7SibsSDK18TokenizationParamsV7BuilderC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:7SibsSDK18TokenizationParamsV7BuilderCAEycfc",
+                "mangledName": "$s7SibsSDK18TokenizationParamsV7BuilderCAEycfc",
+                "moduleName": "SibsSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "tokenizeCard",
+                "printedName": "tokenizeCard(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7SibsSDK18TokenizationParamsV7BuilderC12tokenizeCardyAEXDSbF",
+                "mangledName": "$s7SibsSDK18TokenizationParamsV7BuilderC12tokenizeCardyAEXDSbF",
+                "moduleName": "SibsSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "cardTokens",
+                "printedName": "cardTokens(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[SibsSDK.Token]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[SibsSDK.Token]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Token",
+                            "printedName": "SibsSDK.Token",
+                            "usr": "s:7SibsSDK5TokenV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7SibsSDK18TokenizationParamsV7BuilderC10cardTokensyAEXDSayAA5TokenVGSgF",
+                "mangledName": "$s7SibsSDK18TokenizationParamsV7BuilderC10cardTokensyAEXDSayAA5TokenVGSgF",
+                "moduleName": "SibsSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenizationParams",
+                    "printedName": "SibsSDK.TokenizationParams",
+                    "usr": "s:7SibsSDK18TokenizationParamsV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7SibsSDK18TokenizationParamsV7BuilderC5buildACyF",
+                "mangledName": "$s7SibsSDK18TokenizationParamsV7BuilderC5buildACyF",
+                "moduleName": "SibsSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:7SibsSDK18TokenizationParamsV7BuilderC",
+            "mangledName": "$s7SibsSDK18TokenizationParamsV7BuilderC",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SibsSDK18TokenizationParamsV",
+        "mangledName": "$s7SibsSDK18TokenizationParamsV",
+        "moduleName": "SibsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TokenizationRequest",
+        "printedName": "TokenizationRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tokenizeCard",
+            "printedName": "tokenizeCard",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SibsSDK19TokenizationRequestV12tokenizeCardSbvp",
+            "mangledName": "$s7SibsSDK19TokenizationRequestV12tokenizeCardSbvp",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SibsSDK19TokenizationRequestV12tokenizeCardSbvg",
+                "mangledName": "$s7SibsSDK19TokenizationRequestV12tokenizeCardSbvg",
+                "moduleName": "SibsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(tokenizeCard:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TokenizationRequest",
+                "printedName": "SibsSDK.TokenizationRequest",
+                "usr": "s:7SibsSDK19TokenizationRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SibsSDK19TokenizationRequestV12tokenizeCardACSb_tcfc",
+            "mangledName": "$s7SibsSDK19TokenizationRequestV12tokenizeCardACSb_tcfc",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TokenizationRequest",
+                "printedName": "SibsSDK.TokenizationRequest",
+                "usr": "s:7SibsSDK19TokenizationRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SibsSDK19TokenizationRequestV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7SibsSDK19TokenizationRequestV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SibsSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SibsSDK19TokenizationRequestV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7SibsSDK19TokenizationRequestV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SibsSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SibsSDK19TokenizationRequestV",
+        "mangledName": "$s7SibsSDK19TokenizationRequestV",
+        "moduleName": "SibsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "Language",
         "printedName": "Language",
         "children": [
@@ -6827,21 +8051,35 @@
       "value": "\"SibsSDK.PaymentViewController\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams+Builder.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Extension\/TokenizationParams+Builder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 203,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Extension\/TokenizationParams+Builder.swift",
+      "kind": "Array",
+      "offset": 247,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Extension\/TransactionParams+Builder.swift",
       "kind": "StringLiteral",
       "offset": 230,
       "length": 6,
       "value": "\"PURS\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams+Builder.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Extension\/TransactionParams+Builder.swift",
       "kind": "StringLiteral",
       "offset": 270,
       "length": 5,
       "value": "\"web\""
     },
     {
-      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams+Builder.swift",
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Extension\/TransactionParams+Builder.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 29,
@@ -7016,44 +8254,86 @@
       "value": "\"Error\""
     },
     {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/Token.swift",
+      "kind": "StringLiteral",
+      "offset": 834,
+      "length": 11,
+      "value": "\"tokenName\""
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/Token.swift",
+      "kind": "StringLiteral",
+      "offset": 866,
+      "length": 11,
+      "value": "\"tokenType\""
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/Token.swift",
+      "kind": "StringLiteral",
+      "offset": 834,
+      "length": 11,
+      "value": "\"tokenName\""
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/Token.swift",
+      "kind": "StringLiteral",
+      "offset": 866,
+      "length": 11,
+      "value": "\"tokenType\""
+    },
+    {
       "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
       "kind": "StringLiteral",
-      "offset": 1162,
+      "offset": 824,
+      "length": 14,
+      "value": "\"tokenisation\""
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
+      "kind": "StringLiteral",
+      "offset": 824,
+      "length": 14,
+      "value": "\"tokenisation\""
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
+      "kind": "StringLiteral",
+      "offset": 1521,
       "length": 12,
       "value": "\"terminalId\""
     },
     {
       "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
       "kind": "StringLiteral",
-      "offset": 1233,
+      "offset": 1592,
       "length": 23,
       "value": "\"merchantTransactionId\""
     },
     {
       "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
       "kind": "StringLiteral",
-      "offset": 1162,
+      "offset": 1521,
       "length": 12,
       "value": "\"terminalId\""
     },
     {
       "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
       "kind": "StringLiteral",
-      "offset": 1233,
+      "offset": 1592,
       "length": 23,
       "value": "\"merchantTransactionId\""
     },
     {
       "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
       "kind": "StringLiteral",
-      "offset": 3269,
+      "offset": 3628,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TransactionParams.swift",
       "kind": "StringLiteral",
-      "offset": 3269,
+      "offset": 3628,
       "length": 13,
       "value": "\"description\""
     },
@@ -7224,6 +8504,48 @@
       "offset": 807,
       "length": 9,
       "value": "\"mailto:\""
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TokenizationParams.swift",
+      "kind": "StringLiteral",
+      "offset": 500,
+      "length": 21,
+      "value": "\"tokenisationRequest\""
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TokenizationParams.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 15,
+      "value": "\"paymentTokens\""
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TokenizationParams.swift",
+      "kind": "StringLiteral",
+      "offset": 500,
+      "length": 21,
+      "value": "\"tokenisationRequest\""
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TokenizationParams.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 15,
+      "value": "\"paymentTokens\""
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TokenizationParams.swift",
+      "kind": "StringLiteral",
+      "offset": 869,
+      "length": 14,
+      "value": "\"tokeniseCard\""
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Model\/TokenizationParams.swift",
+      "kind": "StringLiteral",
+      "offset": 869,
+      "length": 14,
+      "value": "\"tokeniseCard\""
     },
     {
       "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Coordinator\/PaymentCoordinator.swift",

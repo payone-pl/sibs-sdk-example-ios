@@ -18,11 +18,13 @@ final class ViewController: UIViewController {
     @IBOutlet weak var blikSwitch: UISwitch!
     @IBOutlet weak var payByLinkSwitch: UISwitch!
     @IBOutlet weak var pblkvSwitch: UISwitch!
+    @IBOutlet weak var cardTokenizationSwitch: UISwitch!
     @IBOutlet weak var clientTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
 
     private enum Constants {
         static let defaultCurrencyCode = "PLN"
+        static let tokenKey = "token"
     }
 
     override func viewDidLoad() {
@@ -57,7 +59,18 @@ final class ViewController: UIViewController {
             payments.append(.pblkv)
         }
 
+        let tokenizeCard = cardTokenizationSwitch.isOn
+
         do {
+            // Required for card tokenization
+            let tokenizeParams = TokenizationParams.Builder()
+                .tokenizeCard(tokenizeCard)
+
+            // If previous tokens are available
+            if let token = token {
+                _ = tokenizeParams.cardTokens([token])
+            }
+
             let data = try TransactionParams.Builder()
                 .currency(currency)
                 .amount(amount)
@@ -67,6 +80,7 @@ final class ViewController: UIViewController {
                 .transactionDescription(transactionDescription)
                 .client(clientTextField.text ?? "")
                 .email(emailTextField.text ?? "")
+                .tokenizationParams(tokenizeParams.build())
                 .build()
 
             SIBS.startPayment(from: self, with: data) { [weak self] result in
@@ -83,6 +97,8 @@ final class ViewController: UIViewController {
     }
 
     private func onPaymentSuccess(data: TransactionResult) {
+        token = data.token // Save token for later use
+
         let message = String(
             format: NSLocalizedString("loc_status_alert_message", comment: ""),
             data.isSuccess ? NSLocalizedString("loc_status_alert_message_success", comment: "") : NSLocalizedString("loc_status_alert_message_error", comment: ""),
@@ -122,5 +138,23 @@ extension ViewController {
         alertViewController.addAction(alertAction)
 
         present(alertViewController, animated: true)
+    }
+}
+
+extension ViewController {
+    private var userDefaults: UserDefaults {
+        UserDefaults.standard
+    }
+
+    private var token: Token? {
+        get {
+            guard let data = userDefaults.object(forKey: Constants.tokenKey) as? Data else { return nil }
+            return try? JSONDecoder().decode(Token.self, from: data)
+        }
+        set {
+            if let data = try? JSONEncoder().encode(newValue) {
+                userDefaults.set(data, forKey: Constants.tokenKey)
+            }
+        }
     }
 }
