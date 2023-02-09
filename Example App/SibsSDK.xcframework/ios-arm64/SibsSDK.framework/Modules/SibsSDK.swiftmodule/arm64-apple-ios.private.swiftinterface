@@ -9,14 +9,19 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
-@_hasMissingDesignatedInitializers public class SDK {
-  public static let shared: SDK
+public class SDK {
+  public init(_ config: SDKConfig)
   public func startPayment(from viewController: UIKit.UIViewController, with data: TransactionParams, completion: PaymentResult)
   public func check(transactionID: Swift.String, completion: @escaping CheckResult)
   @objc deinit
 }
-extension SDK {
-  public func configure(withBaseURL baseURL: Swift.String, webURL: Swift.String, clientID: Swift.String, token: Swift.String, language: Language)
+public struct SDKConfig {
+  public let baseURL: Swift.String
+  public let webURL: Swift.String
+  public let clientID: Swift.String
+  public let token: Swift.String
+  public let language: Language
+  public init(baseURL: Swift.String, webURL: Swift.String, clientID: Swift.String, token: Swift.String, language: Language)
 }
 extension Address {
   public class Builder {
@@ -109,7 +114,6 @@ public struct Amount : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public let SIBS: SDK
 public enum BuilderError : Swift.Error, Foundation.LocalizedError {
   case incorrectParameter(_: Swift.String?)
   public var errorDescription: Swift.String? {

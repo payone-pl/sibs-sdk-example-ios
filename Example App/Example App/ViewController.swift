@@ -22,10 +22,7 @@ final class ViewController: UIViewController {
     @IBOutlet weak var clientTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
 
-    private enum Constants {
-        static let defaultCurrencyCode = "PLN"
-        static let tokenKey = "token"
-    }
+    private let viewModel = ViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,7 +39,7 @@ final class ViewController: UIViewController {
               let transactionDescription = descriptionTextField.text,
               let amountString = amountTextField.text,
               let amount = Double(amountString),
-              let currency = Currency(code: currencyTextField.text ?? Constants.defaultCurrencyCode) else { return }
+              let currency = Currency(code: currencyTextField.text ?? ViewModel.Constants.defaultCurrencyCode) else { return }
 
         var payments: [PaymentMethod] = []
 
@@ -66,8 +63,8 @@ final class ViewController: UIViewController {
             let tokenizeParams = TokenizationParams.Builder()
                 .tokenizeCard(tokenizeCard)
 
-            // If previous tokens are available
-            if let token = token {
+            // If previous token is available
+            if let token = viewModel.token {
                 _ = tokenizeParams.cardTokens([token])
             }
 
@@ -83,7 +80,7 @@ final class ViewController: UIViewController {
                 .tokenizationParams(tokenizeParams.build())
                 .build()
 
-            SIBS.startPayment(from: self, with: data) { [weak self] result in
+            viewModel.sdk.startPayment(from: self, with: data) { [weak self] result in
                 switch result {
                 case .success(let data):
                     self?.onPaymentSuccess(data: data)
@@ -97,7 +94,7 @@ final class ViewController: UIViewController {
     }
 
     private func onPaymentSuccess(data: TransactionResult) {
-        token = data.token // Save token for later use
+        viewModel.token = data.token // Save token for later use
 
         let message = String(
             format: NSLocalizedString("loc_status_alert_message", comment: ""),
@@ -110,7 +107,7 @@ final class ViewController: UIViewController {
 
     private func checkStatus(transactionID: String?) {
         guard let transactionID = transactionID else { return }
-        SIBS.check(transactionID: transactionID) { result in
+        viewModel.sdk.check(transactionID: transactionID) { result in
             switch result {
             case .success(let data):
                 print(data)
@@ -138,23 +135,5 @@ extension ViewController {
         alertViewController.addAction(alertAction)
 
         present(alertViewController, animated: true)
-    }
-}
-
-extension ViewController {
-    private var userDefaults: UserDefaults {
-        UserDefaults.standard
-    }
-
-    private var token: Token? {
-        get {
-            guard let data = userDefaults.object(forKey: Constants.tokenKey) as? Data else { return nil }
-            return try? JSONDecoder().decode(Token.self, from: data)
-        }
-        set {
-            if let data = try? JSONEncoder().encode(newValue) {
-                userDefaults.set(data, forKey: Constants.tokenKey)
-            }
-        }
     }
 }

@@ -20,55 +20,32 @@
         "printedName": "SDK",
         "children": [
           {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "SDK",
                 "printedName": "SibsSDK.SDK",
                 "usr": "s:7SibsSDK0B0C"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7SibsSDK0B0C6sharedACvpZ",
-            "mangledName": "$s7SibsSDK0B0C6sharedACvpZ",
-            "moduleName": "SibsSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
+              },
               {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SDK",
-                    "printedName": "SibsSDK.SDK",
-                    "usr": "s:7SibsSDK0B0C"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7SibsSDK0B0C6sharedACvgZ",
-                "mangledName": "$s7SibsSDK0B0C6sharedACvgZ",
-                "moduleName": "SibsSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
+                "kind": "TypeNominal",
+                "name": "SDKConfig",
+                "printedName": "SibsSDK.SDKConfig",
+                "usr": "s:7SibsSDK9SDKConfigV"
               }
-            ]
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SibsSDK0B0CyAcA9SDKConfigVcfc",
+            "mangledName": "$s7SibsSDK0B0CyAcA9SDKConfigVcfc",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
           },
           {
             "kind": "Function",
@@ -138,7 +115,8 @@
             "mangledName": "$s7SibsSDK0B0C12startPayment4from4with10completionySo16UIViewControllerC_AA17TransactionParamsVys6ResultOyAA0jL0Vs5Error_pGcSgtF",
             "moduleName": "SibsSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -199,16 +177,272 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7SibsSDK0B0C",
+        "mangledName": "$s7SibsSDK0B0C",
+        "moduleName": "SibsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "SibsSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SibsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKConfig",
+        "printedName": "SDKConfig",
+        "children": [
           {
-            "kind": "Function",
-            "name": "configure",
-            "printedName": "configure(withBaseURL:webURL:clientID:token:language:)",
+            "kind": "Var",
+            "name": "baseURL",
+            "printedName": "baseURL",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SibsSDK9SDKConfigV7baseURLSSvp",
+            "mangledName": "$s7SibsSDK9SDKConfigV7baseURLSSvp",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SibsSDK9SDKConfigV7baseURLSSvg",
+                "mangledName": "$s7SibsSDK9SDKConfigV7baseURLSSvg",
+                "moduleName": "SibsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "webURL",
+            "printedName": "webURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SibsSDK9SDKConfigV6webURLSSvp",
+            "mangledName": "$s7SibsSDK9SDKConfigV6webURLSSvp",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SibsSDK9SDKConfigV6webURLSSvg",
+                "mangledName": "$s7SibsSDK9SDKConfigV6webURLSSvg",
+                "moduleName": "SibsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientID",
+            "printedName": "clientID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SibsSDK9SDKConfigV8clientIDSSvp",
+            "mangledName": "$s7SibsSDK9SDKConfigV8clientIDSSvp",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SibsSDK9SDKConfigV8clientIDSSvg",
+                "mangledName": "$s7SibsSDK9SDKConfigV8clientIDSSvg",
+                "moduleName": "SibsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SibsSDK9SDKConfigV5tokenSSvp",
+            "mangledName": "$s7SibsSDK9SDKConfigV5tokenSSvp",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SibsSDK9SDKConfigV5tokenSSvg",
+                "mangledName": "$s7SibsSDK9SDKConfigV5tokenSSvg",
+                "moduleName": "SibsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "language",
+            "printedName": "language",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Language",
+                "printedName": "SibsSDK.Language",
+                "usr": "s:7SibsSDK8LanguageO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SibsSDK9SDKConfigV8languageAA8LanguageOvp",
+            "mangledName": "$s7SibsSDK9SDKConfigV8languageAA8LanguageOvp",
+            "moduleName": "SibsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Language",
+                    "printedName": "SibsSDK.Language",
+                    "usr": "s:7SibsSDK8LanguageO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SibsSDK9SDKConfigV8languageAA8LanguageOvg",
+                "mangledName": "$s7SibsSDK9SDKConfigV8languageAA8LanguageOvg",
+                "moduleName": "SibsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(baseURL:webURL:clientID:token:language:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDKConfig",
+                "printedName": "SibsSDK.SDKConfig",
+                "usr": "s:7SibsSDK9SDKConfigV"
               },
               {
                 "kind": "TypeNominal",
@@ -241,35 +475,22 @@
                 "usr": "s:7SibsSDK8LanguageO"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:7SibsSDK0B0C9configure11withBaseURL03webF08clientID5token8languageySS_S3SAA8LanguageOtF",
-            "mangledName": "$s7SibsSDK0B0C9configure11withBaseURL03webF08clientID5token8languageySS_S3SAA8LanguageOtF",
+            "declKind": "Constructor",
+            "usr": "s:7SibsSDK9SDKConfigV7baseURL03webE08clientID5token8languageACSS_S3SAA8LanguageOtcfc",
+            "mangledName": "$s7SibsSDK9SDKConfigV7baseURL03webE08clientID5token8languageACSS_S3SAA8LanguageOtcfc",
             "moduleName": "SibsSDK",
             "declAttributes": [
               "AccessControl"
             ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
+            "init_kind": "Designated"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:7SibsSDK0B0C",
-        "mangledName": "$s7SibsSDK0B0C",
+        "declKind": "Struct",
+        "usr": "s:7SibsSDK9SDKConfigV",
+        "mangledName": "$s7SibsSDK9SDKConfigV",
         "moduleName": "SibsSDK",
         "declAttributes": [
           "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true
-      },
-      {
-        "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
-        "declKind": "Import",
-        "moduleName": "SibsSDK",
-        "declAttributes": [
-          "ImplementationOnly",
-          "RawDocComment"
         ]
       },
       {
@@ -1730,52 +1951,6 @@
         "declAttributes": [
           "ImplementationOnly",
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "SIBS",
-        "printedName": "SIBS",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "SDK",
-            "printedName": "SibsSDK.SDK",
-            "usr": "s:7SibsSDK0B0C"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:7SibsSDK4SIBSAA0B0Cvp",
-        "mangledName": "$s7SibsSDK4SIBSAA0B0Cvp",
-        "moduleName": "SibsSDK",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SDK",
-                "printedName": "SibsSDK.SDK",
-                "usr": "s:7SibsSDK0B0C"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:7SibsSDK4SIBSAA0B0Cvg",
-            "mangledName": "$s7SibsSDK4SIBSAA0B0Cvg",
-            "moduleName": "SibsSDK",
-            "implicit": true,
-            "accessorKind": "get"
-          }
         ]
       },
       {
@@ -8088,42 +8263,56 @@
     {
       "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
       "kind": "StringLiteral",
-      "offset": 525,
+      "offset": 398,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
       "kind": "StringLiteral",
-      "offset": 565,
+      "offset": 438,
       "length": 17,
       "value": "\"X-IBM-Client-Id\""
     },
     {
       "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
       "kind": "StringLiteral",
-      "offset": 525,
+      "offset": 398,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
       "kind": "StringLiteral",
-      "offset": 565,
+      "offset": 438,
       "length": 17,
       "value": "\"X-IBM-Client-Id\""
     },
     {
       "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 851,
+      "offset": 801,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 855,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 993,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Networking\/NetworkClient.swift",
       "kind": "FloatLiteral",
-      "offset": 882,
+      "offset": 1024,
       "length": 3,
       "value": "5.0"
     },
@@ -8550,7 +8739,7 @@
     {
       "filePath": "\/Users\/huncwot\/Desktop\/sibs\/repo\/sibs-sdk-framework-ios\/SibsSDK\/Coordinator\/PaymentCoordinator.swift",
       "kind": "Array",
-      "offset": 391,
+      "offset": 485,
       "length": 2,
       "value": "[]"
     }
