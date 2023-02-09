@@ -15,7 +15,8 @@
 		09BAB919293814AD009B2E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BAB917293814AD009B2E1B /* Main.storyboard */; };
 		09BAB91B293814AE009B2E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BAB91A293814AE009B2E1B /* Assets.xcassets */; };
 		09BAB91E293814AE009B2E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BAB91C293814AE009B2E1B /* LaunchScreen.storyboard */; };
-		09E9A1542974D27A0074B9BB /* SibsSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E9A1532974D27A0074B9BB /* SibsSDK.xcframework */; };
+		09D054C92994F85D002886A3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D054C82994F85D002886A3 /* ViewModel.swift */; };
+		09D054CB2994FD24002886A3 /* SibsSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D054CA2994FD24002886A3 /* SibsSDK.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +30,8 @@
 		09BAB915293814AD009B2E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		09BAB91A293814AE009B2E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09BAB91F293814AE009B2E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09E9A1532974D27A0074B9BB /* SibsSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SibsSDK.xcframework; sourceTree = "<group>"; };
+		09D054C82994F85D002886A3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		09D054CA2994FD24002886A3 /* SibsSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SibsSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09E9A1542974D27A0074B9BB /* SibsSDK.xcframework in Frameworks */,
+				09D054CB2994FD24002886A3 /* SibsSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +49,7 @@
 		090CD5D92942999200B7A3BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				09E9A1532974D27A0074B9BB /* SibsSDK.xcframework */,
+				09D054CA2994FD24002886A3 /* SibsSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,12 +101,13 @@
 			isa = PBXGroup;
 			children = (
 				0980182E295B9EC50042E49E /* Resources */,
+				09BAB91F293814AE009B2E1B /* Info.plist */,
+				09BAB91C293814AE009B2E1B /* LaunchScreen.storyboard */,
+				09BAB917293814AD009B2E1B /* Main.storyboard */,
 				09BAB911293814AD009B2E1B /* AppDelegate.swift */,
 				09BAB913293814AD009B2E1B /* SceneDelegate.swift */,
 				09BAB915293814AD009B2E1B /* ViewController.swift */,
-				09BAB91C293814AE009B2E1B /* LaunchScreen.storyboard */,
-				09BAB917293814AD009B2E1B /* Main.storyboard */,
-				09BAB91F293814AE009B2E1B /* Info.plist */,
+				09D054C82994F85D002886A3 /* ViewModel.swift */,
 			);
 			path = "Example App";
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			files = (
 				09BAB916293814AD009B2E1B /* ViewController.swift in Sources */,
 				09BAB912293814AD009B2E1B /* AppDelegate.swift in Sources */,
+				09D054C92994F85D002886A3 /* ViewModel.swift in Sources */,
 				09BAB914293814AD009B2E1B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +372,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "ro.sibs.ios.sdk.example-app.Example-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -402,7 +406,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "ro.sibs.ios.sdk.example-app.Example-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
